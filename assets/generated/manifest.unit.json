@@ -3,7 +3,7 @@
  "batches": [
   "g6-2-5-circus"
  ],
- "generated_at": "2026-08-02T16:28:38+00:00",
+ "generated_at": "2026-08-17T13:59:03+00:00",
  "style_anchors": [
   "B1_pixel_keyvisual.png",
   "B2_pixel_lineup.png"
@@ -19,18 +19,6 @@
    "frame_w": 33,
    "frame_h": 68,
    "baseline_y": 66,
-   "attempts": 1,
-   "qa": "pass"
-  },
-  {
-   "id": "popcorn_walk",
-   "file": "popcorn_walk_strip.png",
-   "kind": "strip",
-   "native": 48,
-   "frames": 2,
-   "frame_w": 52,
-   "frame_h": 47,
-   "baseline_y": 45,
    "attempts": 1,
    "qa": "pass"
   },
@@ -468,6 +456,34 @@
     "transparency",
     "alignment"
    ],
+   "attempts": 1,
+   "qa": "pass"
+  },
+  {
+   "id": "mechanic_disc",
+   "group": "mechanic_disc",
+   "file": "mechanic_disc.png",
+   "kind": "single",
+   "native": 128,
+   "frames": 1,
+   "frame_w": 132,
+   "frame_h": 132,
+   "qa_skip": [
+    "density",
+    "outline"
+   ],
+   "attempts": 1,
+   "qa": "pass"
+  },
+  {
+   "id": "popcorn_walk",
+   "file": "popcorn_walk_strip.png",
+   "kind": "strip",
+   "native": 48,
+   "frames": 2,
+   "frame_w": 34,
+   "frame_h": 52,
+   "baseline_y": 50,
    "attempts": 1,
    "qa": "pass"
   }
